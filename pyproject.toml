@@ -7,3 +7,8 @@ name = "mypackage"
 version = "0.1.0"
 license = {file='LICENSE.txt'}
 description = "My first package"
+
+dependencies = [
+  "numpy",
+  'pre-commit',
+]
